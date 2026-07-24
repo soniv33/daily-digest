@@ -1,0 +1,16 @@
+{
+  "name": "mena-daily-brief",
+  "version": "1.0.0",
+  "description": "Daily AI-narrated MENA tech/data/AI news briefing, delivered as a private podcast feed.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "generate": "node scripts/generate-episode.js"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
