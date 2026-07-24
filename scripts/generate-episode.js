@@ -61,7 +61,9 @@ Delivery: natural spoken sentences only — no markdown, no bullet points, no he
     },
     body: JSON.stringify({
       model: "claude-sonnet-5",
-      max_tokens: 1500,
+      // Web search shares this budget, so keep generous headroom above the
+      // ~450-word script or the final sentence gets truncated mid-thought.
+      max_tokens: 4000,
       system: systemPrompt,
       messages: [{ role: "user", content: userPrompt }],
       tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 6 }],
@@ -80,6 +82,13 @@ Delivery: natural spoken sentences only — no markdown, no bullet points, no he
     .trim();
 
   if (!script) throw new Error("Claude returned no script text.");
+  // If we still hit the token ceiling the script is cut off mid-sentence; fail
+  // loudly rather than narrating a truncated episode.
+  if (data.stop_reason === "max_tokens") {
+    throw new Error(
+      "Claude hit max_tokens — script was truncated. Raise max_tokens and retry."
+    );
+  }
   return script;
 }
 
