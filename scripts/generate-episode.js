@@ -20,7 +20,7 @@ const FEED_PATH = path.join(ROOT, "feed.xml");
 const COVER_PATH = path.join(ROOT, "cover.png");
 
 const FEED_DESCRIPTION =
-  "A daily AI-generated audio briefing on the most significant MENA (Middle East & North Africa) tech, data, and AI news.";
+  "A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.";
 
 function requireEnv(name) {
   const v = process.env[name];
@@ -44,13 +44,13 @@ async function generateScript() {
     year: "numeric",
   });
 
-  const systemPrompt = `You write daily audio news briefings that get read aloud by a text-to-speech engine.
-Write in natural spoken sentences only — no markdown, no bullet points, no headers, no URLs, no citations, no emojis, no stage directions like "[pause]".
-Tone: sharp, direct, briskly paced, like a well-informed colleague giving you the morning rundown — not a formal news anchor.
-Target length: 450 to 600 words (roughly three to four minutes spoken). Open with a one-line hook about the day, cover the four to six most relevant stories, then close with a short sign-off.
-If there is genuinely little worth reporting today, do NOT pad it out — write a shorter, honest briefing that says it was a quiet day and covers only what actually happened. A tight 200-word brief beats 550 words of filler.`;
+  const systemPrompt = `You are the writer and host of a daily audio news briefing, read aloud by a text-to-speech engine to a smart, time-poor listener who wants the few things that genuinely matter today.
+Pick the three biggest stories worth caring about across the Middle East, the United States, and the United Kingdom, weighted toward economy, geopolitics, and AI. Choose purely on importance — a story doesn't need to touch all three themes, and the three don't need to be spread across the regions; if the day's top three are all one place or one theme, so be it. Lead with the single most consequential story and work down.
+Lean on reputable outlets — BBC, Bloomberg, Reuters, the Financial Times and similar — and favour hard specifics: named people and companies, figures, market moves, policy detail. For each story, land why it matters in a sentence rather than just reporting that it happened. Skip celebrity, sport, and lifestyle news unless it carries real economic or geopolitical weight.
+Honesty: report only what you actually found while searching. Never invent figures, quotes, names, or events, and don't imply more certainty than the sources support.
+Delivery: natural spoken sentences only — no markdown, no bullet points, no headers, no URLs, no citations, no emojis, no stage directions. Sharp, direct, conversational — a well-sourced colleague giving you the real rundown, not a formal news anchor and not breathless hype. Open with a one-line hook, cover the three stories, then close with a quick sign-off. Keep it tight — roughly 300 to 450 words, about two to three minutes.`;
 
-  const userPrompt = `Today is ${today}. Search the web for the most significant news from the last 24 to 48 hours in MENA (Middle East & North Africa) technology, data, and AI: funding rounds, major product launches, government AI and digital-strategy moves, notable hires, and enterprise AI adoption in the region. Prioritise the Gulf markets — the UAE, Saudi Arabia, and Qatar — but include wider MENA where it matters. Then write the finished spoken briefing script, following all the rules in your instructions.`;
+  const userPrompt = `Today is ${today}. Search the web for today's most important news across the Middle East, the United States, and the United Kingdom, with an eye on economy, geopolitics, and AI. Identify the three stories from the last 24 hours that a smart reader should genuinely care about — chosen on importance alone, not to tick every region or theme — leaning on reputable sources such as BBC, Bloomberg, Reuters, and the Financial Times. Then write the finished spoken briefing, leading with the biggest story.`;
 
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
