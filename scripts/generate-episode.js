@@ -7,7 +7,7 @@ const ANTHROPIC_API_KEY = requireEnv("ANTHROPIC_API_KEY");
 const ELEVENLABS_API_KEY = requireEnv("ELEVENLABS_API_KEY");
 const ELEVENLABS_VOICE_ID = requireEnv("ELEVENLABS_VOICE_ID");
 const PODCAST_BASE_URL = requireEnv("PODCAST_BASE_URL").replace(/\/+$/, ""); // e.g. https://<user>.github.io/mena-daily-brief
-const PODCAST_TITLE = process.env.PODCAST_TITLE || "MENA Daily Brief";
+const PODCAST_TITLE = process.env.PODCAST_TITLE || "Daily Digest";
 const PODCAST_AUTHOR = process.env.PODCAST_AUTHOR || "Private Feed";
 const PODCAST_EMAIL = process.env.PODCAST_EMAIL || "noreply@example.com";
 const ELEVENLABS_MODEL = process.env.ELEVENLABS_MODEL || "eleven_multilingual_v2";
@@ -124,7 +124,7 @@ function saveEpisode(dateStamp, script, audioBuffer) {
 
   const meta = {
     date: dateStamp,
-    title: `MENA Daily Brief — ${dateStamp}`,
+    title: `Daily Digest — ${dateStamp}`,
     summary,
     wordCount,
     fileSizeBytes: audioBuffer.length,
