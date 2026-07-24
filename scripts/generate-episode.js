@@ -8,7 +8,7 @@ const ELEVENLABS_API_KEY = requireEnv("ELEVENLABS_API_KEY");
 const ELEVENLABS_VOICE_ID = requireEnv("ELEVENLABS_VOICE_ID");
 const PODCAST_BASE_URL = requireEnv("PODCAST_BASE_URL").replace(/\/+$/, ""); // e.g. https://<user>.github.io/mena-daily-brief
 const PODCAST_TITLE = process.env.PODCAST_TITLE || "Daily Digest";
-const PODCAST_AUTHOR = process.env.PODCAST_AUTHOR || "Private Feed";
+const PODCAST_AUTHOR = process.env.PODCAST_AUTHOR || "Vishal Soni";
 const PODCAST_EMAIL = process.env.PODCAST_EMAIL || "noreply@example.com";
 const ELEVENLABS_MODEL = process.env.ELEVENLABS_MODEL || "eleven_multilingual_v2";
 // Rolling window: prune episodes older than this many days (keeps repo & hosting small).
