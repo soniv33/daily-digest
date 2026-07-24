@@ -6,7 +6,7 @@
     <atom:link href="https://soniv33.github.io/daily-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
     <description>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</description>
-    <lastBuildDate>Fri, 24 Jul 2026 15:33:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 15:47:21 GMT</lastBuildDate>
     <pubDate>Fri, 24 Jul 2026 06:00:00 GMT</pubDate>
     <itunes:author>Private Feed</itunes:author>
     <itunes:summary>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</itunes:summary>
@@ -27,13 +27,13 @@
     </image>
     <item>
       <title>Daily Digest — 2026-07-24</title>
-      <description>Here’s your briefing for Friday, July 24th. Oil back above a hundred dollars, another new round of Trump tariffs hitting nearly every economy on earth, and Wall Street spooked by its own AI bill — three stories, and honestly, one of them could reshape the rest of your year.…</description>
+      <description>Good morning. There&apos;s really one story driving everything else today, so let&apos;s start there. The Iran war just got a lot more dangerous, and it&apos;s now hitting the global economy directly. Overnight, the U.S. carried out its thirteenth consecutive night of strikes on Iran,…</description>
       <itunes:title>Daily Digest — 2026-07-24</itunes:title>
-      <itunes:summary>Here’s your briefing for Friday, July 24th. Oil back above a hundred dollars, another new round of Trump tariffs hitting nearly every economy on earth, and Wall Street spooked by its own AI bill — three stories, and honestly, one of them could reshape the rest of your year.…</itunes:summary>
+      <itunes:summary>Good morning. There&apos;s really one story driving everything else today, so let&apos;s start there. The Iran war just got a lot more dangerous, and it&apos;s now hitting the global economy directly. Overnight, the U.S. carried out its thirteenth consecutive night of strikes on Iran,…</itunes:summary>
       <guid isPermaLink="true">https://soniv33.github.io/daily-digest/episodes/2026-07-24.mp3</guid>
       <pubDate>Fri, 24 Jul 2026 06:00:00 GMT</pubDate>
-      <enclosure url="https://soniv33.github.io/daily-digest/episodes/2026-07-24.mp3" length="3612047" type="audio/mpeg"/>
-      <itunes:duration>3:25</itunes:duration>
+      <enclosure url="https://soniv33.github.io/daily-digest/episodes/2026-07-24.mp3" length="2958359" type="audio/mpeg"/>
+      <itunes:duration>3:20</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
