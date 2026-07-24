@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MENA Daily Brief</title>
+    <title>Daily Digest</title>
     <link>https://soniv33.github.io/daily-digest</link>
     <atom:link href="https://soniv33.github.io/daily-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <description>A daily AI-generated audio briefing on the most significant MENA (Middle East &amp; North Africa) tech, data, and AI news.</description>
-    <lastBuildDate>Fri, 24 Jul 2026 14:46:38 GMT</lastBuildDate>
+    <description>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</description>
+    <lastBuildDate>Fri, 24 Jul 2026 15:17:19 GMT</lastBuildDate>
     <pubDate>Fri, 24 Jul 2026 06:00:00 GMT</pubDate>
     <itunes:author>Private Feed</itunes:author>
-    <itunes:summary>A daily AI-generated audio briefing on the most significant MENA (Middle East &amp; North Africa) tech, data, and AI news.</itunes:summary>
+    <itunes:summary>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
     <itunes:owner>
@@ -22,18 +22,18 @@
     <itunes:image href="https://soniv33.github.io/daily-digest/cover.png"/>
     <image>
       <url>https://soniv33.github.io/daily-digest/cover.png</url>
-      <title>MENA Daily Brief</title>
+      <title>Daily Digest</title>
       <link>https://soniv33.github.io/daily-digest</link>
     </image>
     <item>
-      <title>MENA Daily Brief — 2026-07-24</title>
-      <description>Good morning. It&apos;s Friday, July 24th, and here&apos;s the thing about the Gulf right now — missiles, travel warnings, and Houthi threats are dominating the front pages, but underneath all that noise, the region&apos;s AI machine hasn&apos;t slowed down for a second. Let&apos;s get into it. Start…</description>
-      <itunes:title>MENA Daily Brief — 2026-07-24</itunes:title>
-      <itunes:summary>Good morning. It&apos;s Friday, July 24th, and here&apos;s the thing about the Gulf right now — missiles, travel warnings, and Houthi threats are dominating the front pages, but underneath all that noise, the region&apos;s AI machine hasn&apos;t slowed down for a second. Let&apos;s get into it. Start…</itunes:summary>
+      <title>Daily Digest — 2026-07-24</title>
+      <description>Here&apos;s your briefing for Friday, July 24th. Oil just blew through a level it hasn&apos;t touched since May, and it&apos;s because the war between the US and Iran has spiraled into the Gulf&apos;s shipping lanes. The U.S. military carried out a 13th consecutive night of strikes on Iran, and…</description>
+      <itunes:title>Daily Digest — 2026-07-24</itunes:title>
+      <itunes:summary>Here&apos;s your briefing for Friday, July 24th. Oil just blew through a level it hasn&apos;t touched since May, and it&apos;s because the war between the US and Iran has spiraled into the Gulf&apos;s shipping lanes. The U.S. military carried out a 13th consecutive night of strikes on Iran, and…</itunes:summary>
       <guid isPermaLink="true">https://soniv33.github.io/daily-digest/episodes/2026-07-24.mp3</guid>
       <pubDate>Fri, 24 Jul 2026 06:00:00 GMT</pubDate>
-      <enclosure url="https://soniv33.github.io/daily-digest/episodes/2026-07-24.mp3" length="773268" type="audio/mpeg"/>
-      <itunes:duration>0:47</itunes:duration>
+      <enclosure url="https://soniv33.github.io/daily-digest/episodes/2026-07-24.mp3" length="2043864" type="audio/mpeg"/>
+      <itunes:duration>2:02</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
