@@ -6,7 +6,7 @@
     <atom:link href="https://soniv33.github.io/daily-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
     <description>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</description>
-    <lastBuildDate>Fri, 24 Jul 2026 16:03:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 17:13:23 GMT</lastBuildDate>
     <pubDate>Fri, 24 Jul 2026 06:00:00 GMT</pubDate>
     <itunes:author>Vishal Soni</itunes:author>
     <itunes:summary>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</itunes:summary>
@@ -27,13 +27,13 @@
     </image>
     <item>
       <title>Daily Digest — 2026-07-24</title>
-      <description>The Middle East war has moved into a more dangerous phase. Yemen&apos;s Houthi movement struck at Saudi vessels in the Red Sea, crossing $100 a barrel for the first time since May, after Houthi militants in Yemen claimed to have struck two Saudi tankers in the Red Sea, an attack that…</description>
+      <description>The war between the United States and Iran escalated overnight into a genuine regional crisis. American forces carried out a 13th consecutive night of strikes on Iran Thursday , and the conflict has now jumped into the Red Sea: oil prices on Thursday crossed 100 dollars a barrel…</description>
       <itunes:title>Daily Digest — 2026-07-24</itunes:title>
-      <itunes:summary>The Middle East war has moved into a more dangerous phase. Yemen&apos;s Houthi movement struck at Saudi vessels in the Red Sea, crossing $100 a barrel for the first time since May, after Houthi militants in Yemen claimed to have struck two Saudi tankers in the Red Sea, an attack that…</itunes:summary>
+      <itunes:summary>The war between the United States and Iran escalated overnight into a genuine regional crisis. American forces carried out a 13th consecutive night of strikes on Iran Thursday , and the conflict has now jumped into the Red Sea: oil prices on Thursday crossed 100 dollars a barrel…</itunes:summary>
       <guid isPermaLink="true">https://soniv33.github.io/daily-digest/episodes/2026-07-24.mp3</guid>
       <pubDate>Fri, 24 Jul 2026 06:00:00 GMT</pubDate>
-      <enclosure url="https://soniv33.github.io/daily-digest/episodes/2026-07-24.mp3" length="2937461" type="audio/mpeg"/>
-      <itunes:duration>2:54</itunes:duration>
+      <enclosure url="https://soniv33.github.io/daily-digest/episodes/2026-07-24.mp3" length="2033415" type="audio/mpeg"/>
+      <itunes:duration>1:55</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
