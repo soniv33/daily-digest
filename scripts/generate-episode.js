@@ -63,7 +63,7 @@ Delivery: natural spoken sentences only — no markdown, no bullet points, no he
       model: "claude-sonnet-5",
       // Web search shares this budget, so keep generous headroom above the
       // ~450-word script or the final sentence gets truncated mid-thought.
-      max_tokens: 4000,
+      max_tokens: 5000,
       system: systemPrompt,
       messages: [{ role: "user", content: userPrompt }],
       tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 6 }],
