@@ -66,24 +66,10 @@ Delivery: natural spoken sentences only — no markdown, no bullet points, no he
       max_tokens: 5000,
       system: systemPrompt,
       messages: [{ role: "user", content: userPrompt }],
-      tools: [
-        {
-          type: "web_search_20250305",
-          name: "web_search",
-          max_uses: 6,
-          // Hard-restrict sourcing to a small set of reputable outlets. BBC/
-          // Reuters/AP are openly readable; FT and Bloomberg are paywalled, so
-          // they're included but leaned on less.
-          allowed_domains: [
-            "bbc.com",
-            "bbc.co.uk",
-            "reuters.com",
-            "apnews.com",
-            "ft.com",
-            "bloomberg.com",
-          ],
-        },
-      ],
+      // Note: allowed_domains can't include BBC/Reuters/AP/FT — those publishers
+      // block Anthropic's web-search crawler (returns 400). So sourcing stays
+      // open; the prompt still steers toward reputable outlets it can reach.
+      tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 6 }],
     }),
   });
 
