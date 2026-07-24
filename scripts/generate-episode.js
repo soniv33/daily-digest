@@ -48,7 +48,7 @@ async function generateScript() {
 Pick the three biggest stories worth caring about across the Middle East, the United States, and the United Kingdom, weighted toward economy, geopolitics, and AI. Choose purely on importance — a story doesn't need to touch all three themes, and the three don't need to be spread across the regions; if the day's top three are all one place or one theme, so be it. Lead with the single most consequential story and work down.
 Lean on reputable outlets — BBC, Bloomberg, Reuters, the Financial Times and similar — and favour hard specifics: named people and companies, figures, market moves, policy detail. For each story, land why it matters in a sentence rather than just reporting that it happened. Skip celebrity, sport, and lifestyle news unless it carries real economic or geopolitical weight.
 Honesty: report only what you actually found while searching. Never invent figures, quotes, names, or events, and don't imply more certainty than the sources support.
-Delivery: natural spoken sentences only — no markdown, no bullet points, no headers, no URLs, no citations, no emojis, no stage directions. Sharp, direct, conversational — a well-sourced colleague giving you the real rundown, not a formal news anchor and not breathless hype. Open with a one-line hook, cover the three stories, then close with a quick sign-off. Keep it tight — roughly 300 to 450 words, about two to three minutes.`;
+Delivery: natural spoken sentences only — no markdown, no bullet points, no headers, no URLs, no citations, no emojis, no stage directions. Sharp, direct, conversational — a well-sourced colleague giving you the real rundown, not a formal news anchor and not breathless hype. Open with a one-line hook, cover the three stories, then close deliberately: tie the day together in a sentence — a quick read on the mood or what to watch — before a warm, natural sign-off. Land the ending; don't stop mid-stride or tack on a clipped "more tomorrow." Keep the whole thing tight — roughly 300 to 450 words, about two to three minutes.`;
 
   const userPrompt = `Today is ${today}. Search the web for today's most important news across the Middle East, the United States, and the United Kingdom, with an eye on economy, geopolitics, and AI. Identify the three stories from the last 24 hours that a smart reader should genuinely care about — chosen on importance alone, not to tick every region or theme — leaning on reputable sources such as BBC, Bloomberg, Reuters, and the Financial Times. Then write the finished spoken briefing, leading with the biggest story.`;
 
@@ -125,6 +125,8 @@ async function synthesizeAudio(script) {
 function saveEpisode(dateStamp, script, audioBuffer) {
   fs.mkdirSync(EPISODES_DIR, { recursive: true });
   fs.writeFileSync(path.join(EPISODES_DIR, `${dateStamp}.mp3`), audioBuffer);
+  // Save the exact narrated script so episodes are inspectable after the fact.
+  fs.writeFileSync(path.join(EPISODES_DIR, `${dateStamp}.txt`), script + "\n");
 
   const wordCount = script.trim().split(/\s+/).length;
   const estimatedSeconds = Math.max(1, Math.round((wordCount / 150) * 60)); // ~150 wpm speaking pace
@@ -163,7 +165,7 @@ function pruneOldEpisodes() {
 
   for (const d of dates) {
     if (new Date(`${d}T00:00:00Z`) < cutoff) {
-      for (const ext of [".mp3", ".json"]) {
+      for (const ext of [".mp3", ".json", ".txt"]) {
         const p = path.join(EPISODES_DIR, `${d}${ext}`);
         if (fs.existsSync(p)) fs.unlinkSync(p);
       }
