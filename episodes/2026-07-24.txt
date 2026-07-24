@@ -1,37 +1,27 @@
-Good morning. There's really one story driving everything else today, so let's start there.
+The Middle East war has moved into a more dangerous phase. Yemen's Houthi movement struck at Saudi vessels in the Red Sea, 
+crossing $100 a barrel for the first time since May, after Houthi militants in Yemen claimed to have struck two Saudi tankers in the Red Sea, an attack that threatened to worsen an oil shock already among the largest in history.
+ 
+Brent crude settled above $100 per barrel for the first time in two months, rising about 7% to $100.69, as widening conflict raised fears about inflation and market volatility.
+ The US carried out a thirteenth consecutive night of strikes on Iran, and 
+Tehran activated its air defenses, with explosions reported over the islands of Qeshm, Larak and Hengam, and the Iranian cities of Ahvaz and Bandar Abbas.
+ This is no longer a distant war for Britain, either. 
+The UK said its armed forces are ready to protect the country after Iran warned that any base used to launch US bomber strikes, including RAF Fairford, would be considered a legitimate target.
+ Against that backdrop, Netanyahu is due in Washington next week for his first meeting with Trump since the war began.
 
-The Iran war just got a lot more dangerous, and it's now hitting the global economy directly. Overnight, the U.S. carried out its 
-thirteenth consecutive night of strikes on Iran, according to U.S. Central Command
-, with 
-Tasnim news agency reporting four people killed and five wounded near Ahvaz in Khuzestan province
-. The war has now spread to shipping lanes: 
-oil prices rose above one hundred dollars for the first time since May after Yemen's Iran-backed Houthis opened a new front by targeting Saudi vessels in the Bab el-Mandeb Strait
-. Overnight, 
-drones targeted the northern Iraqi city of Erbil, where U.S. forces are based
-. And President Trump is signaling this could escalate further still, telling Axios 
-"I am considering a massive attack. Bigger than ever before. I am close to making a decision. We are all set for it."
- Adding to the diplomatic weight, 
-Netanyahu is due to meet Trump in Washington next week for the first time since the Iran war began
-. This matters because it's no longer a contained regional conflict — it's now a live threat to global energy supply and to every economy watching oil prices climb.
+That escalation is now hitting money markets directly. 
+The S&P 500 is down about 2% since consecutive US strikes began on July 12, and major indexes tumbled Thursday as investors priced in a prolonged conflict.
+ 
+West Texas Intermediate jumped 6% to $92 a barrel, up more than 28% from lows below $70 earlier this month.
+ Strategists at Wells Fargo now say 
+traders need to reconsider the economic fears they had back in March, worried about both higher inflation and a hit to consumer spending, with the reignited conflict reason enough to brace for a larger equity drawdown.
+ Britain isn't insulated: the Bank of England's rate decision lands July 30, and 
+Governor Andrew Bailey has already warned that recent energy price increases are likely to keep feeding through into inflation, noting that four months of higher energy costs mean pressure is already in the pipeline.
 
-That bleeds straight into story two: markets had their worst day in a month. The 
-S&P 500 dropped over one percent while the Nasdaq fell more than two percent, dragged down by a seven percent drop in Alphabet and a fourteen percent loss in Tesla following their earnings
-, with 
-Alphabet's results fueling concerns about increased artificial intelligence spending
-. Wall Street's fear gauge 
-jumped to its highest level in almost a month
-, and 
-rising oil prices pushed ten-year Treasury yields to their highest since early 2025
-, with 
-the oil surge stoking inflation worries just days before the next Federal Reserve policy meeting
-. Translation: the AI boom's cost is now colliding with a geopolitical oil shock, and investors are getting nervous about both at once.
 
-Third, in Britain, the Bank of England is boxed in. 
-The household energy price cap rose thirteen percent in July, while Brent crude has climbed back above ninety dollars
-, and 
-economists expect inflation to rise above three percent later this year as energy bills and Middle East tensions feed through into prices
-. Despite that, 
-most economists expect the Bank to hold rates at three-point-seven-five percent at its meeting on the thirtieth
-, with Governor Bailey warning that renewed geopolitical uncertainty is now a real risk to the outlook. That's a tough backdrop for a Labour government still finding its footing after last week's leadership change.
+Away from the war, OpenAI took a step toward public markets. 
+It appointed BNY's Robin Vince and Nubank's David Vélez to its boards, adding financial-services heavyweights as it moves toward an IPO, following its confidential prospectus filing with the SEC in June.
+ 
+The company carries a valuation of $852 billion, with Goldman Sachs and Morgan Stanley leading the filing process ahead of a potential fall listing.
+ It matters because the AI boom is about to face public shareholders and quarterly scrutiny for the first time, just as the broader market turns nervous.
 
-So here's the read: energy, inflation and AI capital spending are now tangled up in one story, and it runs through Tehran, the Red Sea, Wall Street trading floors and Threadneedle Street alike. Watch oil first — everything else follows it. That's your briefing. Have a good one, and I'll catch you back here tomorrow.
+That's the briefing. Back tomorrow.
