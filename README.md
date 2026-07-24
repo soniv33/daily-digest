@@ -1,8 +1,8 @@
-# MENA Daily Brief
+# Daily Digest
 
-A daily, AI-narrated audio briefing on **MENA (Middle East & North Africa) tech, data, and AI news** — delivered as your own private podcast feed.
+A daily, AI-narrated audio briefing on **the three stories that matter most across the Middle East, US, and UK — economy, geopolitics, and AI** — delivered as your own private podcast feed.
 
-**How it works:** every morning a GitHub Action wakes up, asks Claude (with web search) to find the day's most significant MENA tech/data/AI news and write a short spoken-word script, sends that script to ElevenLabs to narrate, saves the mp3, rebuilds an RSS feed, and publishes everything to GitHub Pages — for free. You subscribe once in any podcast app and new episodes just show up. It runs unattended forever once set up.
+**How it works:** every morning a GitHub Action wakes up, asks Claude (with web search) to find the day's three most important stories and write a short spoken-word script, sends that script to ElevenLabs to narrate, saves the mp3, rebuilds an RSS feed, and publishes everything to GitHub Pages — for free. You subscribe once in any podcast app and new episodes just show up. It runs unattended forever once set up.
 
 ```
 scripts/generate-episode.js   → research (Claude + web search) → narrate (ElevenLabs) → save mp3 + rebuild feed.xml
@@ -16,12 +16,12 @@ scripts/generate-episode.js   → research (Claude + web search) → narrate (El
 ### 1. Create the repo and push this code
 
 ```bash
-cd mena-daily-brief
+cd daily-digest
 git init
 git add .
 git commit -m "Initial setup"
 git branch -M main
-git remote add origin https://github.com/<your-username>/mena-daily-brief.git
+git remote add origin https://github.com/<your-username>/daily-digest.git
 git push -u origin main
 ```
 
@@ -45,13 +45,13 @@ Same page, **Variables tab → New repository variable**:
 
 | Variable | Value |
 | --- | --- |
-| `PODCAST_BASE_URL` | `https://<your-username>.github.io/mena-daily-brief` (no trailing slash) |
+| `PODCAST_BASE_URL` | `https://<your-username>.github.io/daily-digest` (no trailing slash) |
 
 > This is a **variable**, not a secret — it's a public URL and the workflow reads it from `vars.*`.
 
 ### 5. Trigger it once manually
 
-**Actions tab → "Daily MENA Brief" → Run workflow.** This generates your first episode, builds `feed.xml`, and deploys to Pages. Give it a minute, then confirm `https://<your-username>.github.io/mena-daily-brief/feed.xml` loads.
+**Actions tab → "Daily Digest" → Run workflow.** This generates your first episode, builds `feed.xml`, and deploys to Pages. Give it a minute, then confirm `https://<your-username>.github.io/daily-digest/feed.xml` loads.
 
 After this, it runs itself every day at **05:30 UTC**. To change the time, edit the single `cron:` line in `.github/workflows/daily-brief.yml` (times are UTC).
 
@@ -62,7 +62,7 @@ After this, it runs itself every day at **05:30 UTC**. To change the time, edit 
 Add this URL in any app that supports "add by URL" (Overcast, Pocket Casts, Apple Podcasts → *Library → Add a Show by URL*, AntennaPod, etc.):
 
 ```
-https://<your-username>.github.io/mena-daily-brief/feed.xml
+https://<your-username>.github.io/daily-digest/feed.xml
 ```
 
 New episodes appear automatically each morning.
