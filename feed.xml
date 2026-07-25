@@ -6,8 +6,8 @@
     <atom:link href="https://soniv33.github.io/daily-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
     <description>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</description>
-    <lastBuildDate>Fri, 24 Jul 2026 17:13:23 GMT</lastBuildDate>
-    <pubDate>Fri, 24 Jul 2026 06:00:00 GMT</pubDate>
+    <lastBuildDate>Sat, 25 Jul 2026 07:33:41 GMT</lastBuildDate>
+    <pubDate>Sat, 25 Jul 2026 06:00:00 GMT</pubDate>
     <itunes:author>Vishal Soni</itunes:author>
     <itunes:summary>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -25,6 +25,18 @@
       <title>Daily Digest</title>
       <link>https://soniv33.github.io/daily-digest</link>
     </image>
+    <item>
+      <title>Daily Digest — 2026-07-25</title>
+      <description>The most consequential story right now is the war between the United States and Iran, now in its fifth month, and its direct hit on markets and the wider region. President Trump said today the US remains, in his words, prepared to intensify military operations while expressing…</description>
+      <itunes:title>Daily Digest — 2026-07-25</itunes:title>
+      <itunes:summary>The most consequential story right now is the war between the United States and Iran, now in its fifth month, and its direct hit on markets and the wider region. President Trump said today the US remains, in his words, prepared to intensify military operations while expressing…</itunes:summary>
+      <guid isPermaLink="true">https://soniv33.github.io/daily-digest/episodes/2026-07-25.mp3</guid>
+      <pubDate>Sat, 25 Jul 2026 06:00:00 GMT</pubDate>
+      <enclosure url="https://soniv33.github.io/daily-digest/episodes/2026-07-25.mp3" length="2403309" type="audio/mpeg"/>
+      <itunes:duration>2:22</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Daily Digest — 2026-07-24</title>
       <description>The war between the United States and Iran escalated overnight into a genuine regional crisis. American forces carried out a 13th consecutive night of strikes on Iran Thursday , and the conflict has now jumped into the Red Sea: oil prices on Thursday crossed 100 dollars a barrel…</description>
