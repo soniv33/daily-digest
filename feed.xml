@@ -6,8 +6,8 @@
     <atom:link href="https://soniv33.github.io/daily-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
     <description>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</description>
-    <lastBuildDate>Sat, 25 Jul 2026 07:55:16 GMT</lastBuildDate>
-    <pubDate>Sat, 25 Jul 2026 06:00:00 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 07:56:39 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 06:00:00 GMT</pubDate>
     <itunes:author>Vishal Soni</itunes:author>
     <itunes:summary>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -25,6 +25,18 @@
       <title>Daily Digest</title>
       <link>https://soniv33.github.io/daily-digest</link>
     </image>
+    <item>
+      <title>Daily Digest — 2026-07-26</title>
+      <description>Iran&apos;s war with the United States is widening, and it&apos;s rattling markets and central bankers on both sides of the Atlantic. Overnight, Iran&apos;s army warned the conflict will spread further across the region if Washington keeps pressing its campaign against Tehran. That warning…</description>
+      <itunes:title>Daily Digest — 2026-07-26</itunes:title>
+      <itunes:summary>Iran&apos;s war with the United States is widening, and it&apos;s rattling markets and central bankers on both sides of the Atlantic. Overnight, Iran&apos;s army warned the conflict will spread further across the region if Washington keeps pressing its campaign against Tehran. That warning…</itunes:summary>
+      <guid isPermaLink="true">https://soniv33.github.io/daily-digest/episodes/2026-07-26.mp3</guid>
+      <pubDate>Sun, 26 Jul 2026 06:00:00 GMT</pubDate>
+      <enclosure url="https://soniv33.github.io/daily-digest/episodes/2026-07-26.mp3" length="2053895" type="audio/mpeg"/>
+      <itunes:duration>1:59</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Daily Digest — 2026-07-25</title>
       <description>Here&apos;s today&apos;s briefing. The war between the United States and Iran is now in its second week of open combat, and it&apos;s the story moving markets everywhere. Overnight, U.S. Central Command completed its 13th consecutive night of strikes on Iran, targeting military command…</description>
