@@ -6,8 +6,8 @@
     <atom:link href="https://soniv33.github.io/daily-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
     <description>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</description>
-    <lastBuildDate>Mon, 27 Jul 2026 08:56:19 GMT</lastBuildDate>
-    <pubDate>Mon, 27 Jul 2026 06:00:00 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 08:01:56 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 06:00:00 GMT</pubDate>
     <itunes:author>Vishal Soni</itunes:author>
     <itunes:summary>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -25,6 +25,18 @@
       <title>Daily Digest</title>
       <link>https://soniv33.github.io/daily-digest</link>
     </image>
+    <item>
+      <title>Daily Digest — 2026-07-28</title>
+      <description>The Middle East has entered a fragile pause after months of war between Israel, the United States, and Iran. After months of war, disruption to Gulf shipping and repeated threats against regional energy infrastructure, the Middle East has entered a fragile diplomatic pause,…</description>
+      <itunes:title>Daily Digest — 2026-07-28</itunes:title>
+      <itunes:summary>The Middle East has entered a fragile pause after months of war between Israel, the United States, and Iran. After months of war, disruption to Gulf shipping and repeated threats against regional energy infrastructure, the Middle East has entered a fragile diplomatic pause,…</itunes:summary>
+      <guid isPermaLink="true">https://soniv33.github.io/daily-digest/episodes/2026-07-28.mp3</guid>
+      <pubDate>Tue, 28 Jul 2026 06:00:00 GMT</pubDate>
+      <enclosure url="https://soniv33.github.io/daily-digest/episodes/2026-07-28.mp3" length="2373634" type="audio/mpeg"/>
+      <itunes:duration>2:29</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Daily Digest — 2026-07-27</title>
       <description>The most important story right now is the sudden, tentative de-escalation between the United States and Iran, and the oil shock it just reversed. Late last week the US halted its bombing campaign against Iran, after roughly two weeks of nightly strikes. A senior Iranian official…</description>
