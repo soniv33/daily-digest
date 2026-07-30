@@ -6,8 +6,8 @@
     <atom:link href="https://soniv33.github.io/daily-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
     <description>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</description>
-    <lastBuildDate>Wed, 29 Jul 2026 08:06:10 GMT</lastBuildDate>
-    <pubDate>Wed, 29 Jul 2026 06:00:00 GMT</pubDate>
+    <lastBuildDate>Thu, 30 Jul 2026 07:56:56 GMT</lastBuildDate>
+    <pubDate>Thu, 30 Jul 2026 06:00:00 GMT</pubDate>
     <itunes:author>Vishal Soni</itunes:author>
     <itunes:summary>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -25,6 +25,18 @@
       <title>Daily Digest</title>
       <link>https://soniv33.github.io/daily-digest</link>
     </image>
+    <item>
+      <title>Daily Digest — 2026-07-30</title>
+      <description>The Iran war has flared back up, and markets spent Wednesday absorbing the shock. US Central Command says it completed a heavy wave of strikes on dozens of Revolutionary Guard targets in Iran, a day after Iran&apos;s military targeted American troops in the region with ballistic…</description>
+      <itunes:title>Daily Digest — 2026-07-30</itunes:title>
+      <itunes:summary>The Iran war has flared back up, and markets spent Wednesday absorbing the shock. US Central Command says it completed a heavy wave of strikes on dozens of Revolutionary Guard targets in Iran, a day after Iran&apos;s military targeted American troops in the region with ballistic…</itunes:summary>
+      <guid isPermaLink="true">https://soniv33.github.io/daily-digest/episodes/2026-07-30.mp3</guid>
+      <pubDate>Thu, 30 Jul 2026 06:00:00 GMT</pubDate>
+      <enclosure url="https://soniv33.github.io/daily-digest/episodes/2026-07-30.mp3" length="2585539" type="audio/mpeg"/>
+      <itunes:duration>2:34</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Daily Digest — 2026-07-29</title>
       <description>Iran fired ballistic missiles at American forces in the Middle East late yesterday, and the US military intercepted all of them. US Central Command said Iranian Revolutionary Guard Corps forces launched the missiles in an attempted surprise attack, and that all of them were…</description>
