@@ -6,8 +6,8 @@
     <atom:link href="https://soniv33.github.io/daily-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
     <description>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</description>
-    <lastBuildDate>Thu, 30 Jul 2026 07:56:56 GMT</lastBuildDate>
-    <pubDate>Thu, 30 Jul 2026 06:00:00 GMT</pubDate>
+    <lastBuildDate>Fri, 31 Jul 2026 08:18:49 GMT</lastBuildDate>
+    <pubDate>Fri, 31 Jul 2026 06:00:00 GMT</pubDate>
     <itunes:author>Vishal Soni</itunes:author>
     <itunes:summary>A daily AI-generated audio briefing on the three stories that matter most across the Middle East, the US, and the UK — economy, geopolitics, and AI.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -25,6 +25,18 @@
       <title>Daily Digest</title>
       <link>https://soniv33.github.io/daily-digest</link>
     </image>
+    <item>
+      <title>Daily Digest — 2026-07-31</title>
+      <description>Good morning. Here&apos;s what matters today. The story dominating markets is the widening war between the United States and Iran, and its grip on the Federal Reserve. Oil prices surged this week after Iran fired missiles at a US base in Jordan — intercepted by Centcom — prompting…</description>
+      <itunes:title>Daily Digest — 2026-07-31</itunes:title>
+      <itunes:summary>Good morning. Here&apos;s what matters today. The story dominating markets is the widening war between the United States and Iran, and its grip on the Federal Reserve. Oil prices surged this week after Iran fired missiles at a US base in Jordan — intercepted by Centcom — prompting…</itunes:summary>
+      <guid isPermaLink="true">https://soniv33.github.io/daily-digest/episodes/2026-07-31.mp3</guid>
+      <pubDate>Fri, 31 Jul 2026 06:00:00 GMT</pubDate>
+      <enclosure url="https://soniv33.github.io/daily-digest/episodes/2026-07-31.mp3" length="2382411" type="audio/mpeg"/>
+      <itunes:duration>2:24</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Daily Digest — 2026-07-30</title>
       <description>The Iran war has flared back up, and markets spent Wednesday absorbing the shock. US Central Command says it completed a heavy wave of strikes on dozens of Revolutionary Guard targets in Iran, a day after Iran&apos;s military targeted American troops in the region with ballistic…</description>

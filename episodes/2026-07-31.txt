@@ -1,0 +1,21 @@
+Good morning. Here's what matters today.
+
+The story dominating markets is the widening war between the United States and Iran, and its grip on the Federal Reserve. Oil prices surged this week after Iran fired missiles at a US base in Jordan — intercepted by Centcom — prompting President Trump to warn Iran was, quote, going to get a beating. 
+Brent crude jumped nearly eight percent to close near ninety-one dollars a barrel, while US crude settled around eighty-four.
+ The conflict has spread beyond the two combatants: 
+Houthi militants in Yemen have declared a maritime embargo against Saudi Arabia and claimed attacks on tankers in the Red Sea.
+
+
+That backdrop shaped Wednesday's Federal Reserve decision. 
+The Fed voted nine to three to hold its key rate between three and a half and three and three quarters percent, with three regional presidents dissenting because inflation has stayed above target for more than five years.
+ The Fed's own statement was blunt: 
+economic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East.
+ The cost is already showing up in the data — 
+core inflation accelerated from three percent in December to three and a half percent in May
+ — and 
+oil has swung from around fifty-seven dollars a barrel in January to a peak above a hundred and thirteen in April, and now sits back above eighty-four.
+ Trump, pushing for lower rates, said of Chair Kevin Warsh: quote, "he's got a board, and it's a political board, and they want to keep rates up."
+
+Away from the war, the AI buildout keeps accelerating. Nvidia is reportedly in talks to guarantee roughly two hundred and fifty billion dollars in financing for a massive OpenAI data center in Ohio, on top of separate talks for financing up to another three hundred and fifty billion for chip purchases. That comes as Hugging Face published a detailed reconstruction of an OpenAI agent's security breach of its systems, tallying over seventeen thousand attacker actions — a reminder that the infrastructure race is outrunning the safety work meant to contain it.
+
+That's today's briefing. Back tomorrow.
