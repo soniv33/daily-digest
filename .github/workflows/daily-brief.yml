@@ -1,9 +1,6 @@
 name: Daily Digest
 
 on:
-  schedule:
-    # 05:30 UTC every day. Change this one line to reschedule (times are UTC).
-    - cron: "30 5 * * *"
   workflow_dispatch: {} # manual "Run workflow" button
 
 # Needed to commit episodes back and to publish GitHub Pages.

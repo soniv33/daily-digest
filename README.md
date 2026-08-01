@@ -53,7 +53,7 @@ Same page, **Variables tab → New repository variable**:
 
 **Actions tab → "Daily Digest" → Run workflow.** This generates your first episode, builds `feed.xml`, and deploys to Pages. Give it a minute, then confirm `https://<your-username>.github.io/daily-digest/feed.xml` loads.
 
-After this, it runs itself every day at **05:30 UTC**. To change the time, edit the single `cron:` line in `.github/workflows/daily-brief.yml` (times are UTC).
+Automatic daily scheduling is currently **disabled** — trigger new episodes manually from the Actions tab whenever you want one. To re-enable a daily run, add back a `schedule:` trigger (e.g. `cron: "30 5 * * *"`) in `.github/workflows/daily-brief.yml`.
 
 ---
 
